@@ -2,13 +2,13 @@ module RuboCop
   module Cop
     module Style
       class Ternary < Cop
-	# This cop checks for ternary op expressions.
-	#
-	# @example
-	#   # bad
-	#   cond ? a : b
-	#
-	#   # good
+        # This cop checks for ternary op expressions.
+        #
+        # @example
+        #   # bad
+        #   cond ? a : b
+        #
+        #   # good
         #   if cond
         #     a
         #   else
