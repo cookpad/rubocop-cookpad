@@ -1,8 +1,8 @@
 require "test_helper"
 
-class Rubocop::CookpadTest < Minitest::Test
+class RuboCop::CookpadTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::Rubocop::Cookpad::VERSION
+    refute_nil ::RuboCop::Cookpad::VERSION
   end
 
   def test_it_does_something_useful
